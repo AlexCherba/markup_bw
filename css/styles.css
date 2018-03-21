@@ -21,6 +21,13 @@ body {
     margin: 0 auto;
 }
 
+.content-wrapper footer {
+    font-family: Arial, Tahoma, sans-serif;
+    color: #656565;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
 header.content-wrapper {
     padding: 6px 0;
 }
@@ -115,11 +122,16 @@ nav a::after {
 
 main {
     background-color: #FFFFFF;
-    padding: 24px 12px;
+    padding: 2.4rem 1.2rem;
 }
 
 footer {
-    padding: 6px 0;
+    padding: 0.6rem 0;
+}
+main a,
+footer a {
+    text-decoration: underline;
+    color: #0075d0;
 }
 
 main h1 {
@@ -131,19 +143,63 @@ main h1 {
 main p {
     font-size: 1.3rem;
 }
-main a{
-    font-style: italic;
-    text-decoration: underline;
-}
+
 main h2 {
     margin: 3rem 0 1rem 0;
     font-size: 2rem;
     font-weight: bold;
     color: #838383;
 }
-section .col{
+
+section .col {
     padding: 0px;
 }
-section img{
-    border: 12px solid #e2e2e2;
+
+section img {
+    border: 1.2rem solid #e2e2e2;
 }
+
+dl {
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
+
+dt {
+    font-weight: inherit;
+}
+
+dd {
+    margin-bottom: inherit;
+    margin-left: 4rem;
+}
+
+table {
+    font-size: 1.3rem;
+}
+
+th {
+    background-color: #eeeeee;
+}
+
+.main-form label {
+    display: block;
+    margin: 0px;
+}
+
+.main-form .size-fix {
+    width: 24rem;
+    height: 3rem;
+}
+
+.main-form button {
+    background-color: #202020;
+    font-family: Arial, Tahoma, sans-serif;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 3.5rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+
+

@@ -46,9 +46,11 @@
     </nav>
     <main>
         <h1>What we do</h1>
-        <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing elit</a>. Amet asperiores consectetur cupiditate debitis
-            delectus eum, eveniet excepturi exercitationem magni nemo neque nihil odit, quaerat quis quod rerum unde ut
-            velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>A distinctio dolorem ea</strong>, ex fuga harum hic
+        <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing elit</a>. Amet asperiores consectetur
+            cupiditate debitis
+            delectus eum, <i>eveniet excepturi exercitationem magni nemo </i>neque nihil odit, quaerat quis quod rerum unde ut
+            velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>A distinctio dolorem ea</strong>,
+            ex fuga harum hic
             modi, molestiae molestias nemo officia perferendis placeat quibusdam quisquam saepe ullam veritatis.
             Incidunt, quae.</p>
         <h2>Images</h2>
@@ -67,12 +69,119 @@
                     <img src="images/image4.jpg" alt="image1">
                 </div>
             </div>
+            <h2>Lists and Descriptions</h2>
+            <div class="row">
+                <div class="col-4">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur</li>
+                        <li>in inventore iusto labore, modi</li>
+                        <li>deserunt eius illo quod similique</li>
+                        <li>inventore iusto labore, modi</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ol>
+                        <li>Lorem ipsum dolor sit amet, consectetur</li>
+                        <li>in inventore iusto labore, modi</li>
+                        <li>deserunt eius illo quod similique</li>
+                        <li>inventore iusto labore, modi</li>
+                    </ol>
+                </div>
+                <div class="col-4">
+                    <dl>
+                        <dt>ТLorem ipsum dolor sit amet, consectetur</dt>
+                        <dd>in inventore iusto labore, modi</dd>
+                        <dt>deserunt eius illo quod similique</dt>
+                        <dd>inventore iusto labore, modi</dd>
+                    </dl>
+                </div>
+            </div>
         </section>
+        <section class="container-fluid">
+            <h2>Table</h2>
 
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>Lorem</th>
+                    <th>Lorem ipsum dolor sit.</th>
+                    <th>Lorem ipsum dolor sit.</th>
+                    <th>Lorem ipsum dolor sit.</th>
+                    <th>Lorem ipsum dolor sit.</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Lorem</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                </tr>
+                <tr>
+                    <td>Lorem</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                </tr>
+                <tr>
+                    <td>Lorem</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                </tr>
+                <tr>
+                    <td>Lorem</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <h2>Form</h2>
+            <form name="form01" class="main-form" method="post" action="">
+                <div class="form-group">
+                    <label>Text:</label>
+                    <input class="size-fix" type="text" id="textInput" placeholder="Input type text">
+                </div>
+                <div class="form-group">
+                    <label>Select:</label>
+                    <select class="size-fix" name="option">
+                        <option disabled>Выберите героя</option>
+                        <option selected value="Option">Option</option>
+                        <option value="Чебурашка">Чебурашка</option>
+                        <option value="Крокодил Гена">Крокодил Гена</option>
+                        <option value="Шапокляк">Шапокляк</option>
+                        <option value="Крыса Лариса">Крыса Лариса</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="check01" value="enable">
+                        Lorem ipsum dolor sit amet
+                    </label>
+                    <label>
+                        <input type="radio" checked name="check01" value="enable">
+                        ipsum dolor sit amet, consectetur
+                    </label>
+                </div>
+                <div class="form-gloup">
+                    <label>Textarea:</label>
+                    <p><textarea rows="6" cols="40" name="text"></textarea></p>
+                </div>
+                <div class="form-gloup">
+                    <button type="submit">Button</button>
+                </div>
+            </form>
+        </section>
     </main>
 </div>
 <footer class="content-wrapper">
-    &copy; CopyRights A-Level 2018.
+    &copy; CopyRights <a href="http://a-level.com.ua">A-Level</a> 2018.
 </footer>
 </body>
 </html>
